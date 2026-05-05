@@ -3,7 +3,7 @@ on:
     workflow_dispatch:
 jobs:
     build:
-        uses: chaitanyabhogadi/Resuable_workflow_29a/.github/workflows/build.yml@v1_java
+        uses: chaitanyabhogadi/Resuable_workflow_29a/.github/workflows/build.yml@v1_java_branch
         with: 
             java_version: '21'
             maven_command: 'package'
